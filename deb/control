@@ -1,0 +1,10 @@
+Package: ibus-table-assyriological
+Version: 1.0.0
+Section: Utilities
+Priority: optional
+Architecture: all
+Depends: ibus-table, ibus
+Maintainer: srjskam@iki.fi
+Description: ibus-table input method: Assyriological
+ An input method to write assyriological special characters using IBUS table engine. 
+ https://github.com/srjskam/ibus-table-assyriological

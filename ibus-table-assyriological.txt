@@ -1,0 +1,277 @@
+###
+### Assyriological ibus tables
+###
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### License
+LICENSE = LGPL
+
+### An unique id to distinguish this table among others.
+### Use uuidgen to generate this kind of id.
+UUID = cc4ab7c3-82b5-48d4-87a5-0231daa7727a
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+### Just make your table version-able
+SERIAL_NUMBER = 
+
+### ICON can be any format as long as your pygtk can recognized
+### the most widely ones are "png" and "svg", letter one is recommended
+### /usr/share/ibus-table/icons
+ICON = assyriological.svg
+
+### The symbol to be displayed in IM switchers
+SYMBOL = As
+
+### The default name of this table, this is needed
+NAME = Assyriological
+
+### The local names of this table, this is optional
+###NAME.fi_FI = 
+
+
+
+### Description
+DESCRIPTION = This is a assyriological engine table for IBus Table.
+
+### Supported languages of this table
+LANGUAGES = other
+
+### The author of this table
+AUTHOR = srjskam <srjskam@iki.fi>
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = As
+
+### Valid input chars.
+VALID_INPUT_CHARS = 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_'\*,()[]+-.
+
+
+### Layout
+### This table can be used with any layout capable of typing ASCII.
+### Therefore, we should not require a special layout like “us”.
+LAYOUT = default
+
+### The max number of input keys for every phrase or character.
+MAX_KEY_LENGTH = 2
+
+### Use auto_commit mode as default
+AUTO_COMMIT = TRUE
+
+### Automatically selects the first phrase when typing
+AUTO_SELECT = TRUE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = TRUE
+### Not use full width letter by default
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### Whether user are allow to define phrase, default is true
+### You have to define the word construction rules below.
+### For input methods which do not input phrases, set this to False
+USER_CAN_DEFINE_PHRASE = TRUE
+
+### Whether support PinYin Mode, default is true.
+### this feature is just for Chinese, set it to False if your IM is not
+### Chinese.
+PINYIN_MODE = FALSE
+
+### If true then the phrases' frequencies will be adjusted dynamically
+### according your using frequency.
+DYNAMIC_ADJUST = FALSE
+
+### Some characters whose frequencies should be fix all the time, e.g. 
+### some punctuations
+### NO_CHECK_CHARS = 
+
+
+### The key strokes to page up the lookup table.
+PAGE_UP_KEYS = Page_Up
+
+### The key strokes to page down the lookup table.
+PAGE_DOWN_KEYS = Page_Down
+
+### The key strokes to select candidiate phrases.
+### Usually "1,2,3,4,5,6,7,8,9" but if this conflicts with
+### characters one wants to use for input one can also
+### use something like “F1,F2,F3,F4,F5,F6,F7,F8,F9”
+SELECT_KEYS = F1,F2,F3,F4,F5,F6,F7,F8,F9
+
+### The default orientation of the candidate list
+### FALSE means the candidate list is horizontal, TRUE means it is vertical
+ORIENTATION = FALSE
+
+INPUT_MODE = Table
+
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+0	0	200
+1	1	200
+2	2	200
+3	3	200
+4	4	200
+5	5	200
+6	6	200
+7	7	200
+8	8	200
+9	9	200
+a	a	200
+b	b	200
+c	c	200
+d	d	200
+e	e	200
+f	f	200
+g	g	200
+h	h	200
+i	i	200
+j	j	200
+k	k	200
+l	l	200
+m	m	200
+n	n	200
+o	o	200
+p	p	200
+q	q	200
+r	r	200
+s	s	200
+t	t	200
+u	u	200
+v	v	200
+w	w	200
+x	x	200
+y	y	200
+z	z	200
+A	A	200
+B	B	200
+C	C	200
+D	D	200
+E	E	200
+F	F	200
+G	G	200
+H	H	200
+I	I	200
+J	J	200
+K	K	200
+L	L	200
+M	M	200
+N	N	200
+O	O	200
+P	P	200
+Q	Q	200
+R	R	200
+S	S	200
+T	T	200
+U	U	200
+V	V	200
+W	W	200
+X	X	200
+Y	Y	200
+Z	Z	200
+*	*	400
+'	'	400
+\	\	400
+_	_	400
+,	,	400
+.	.	400
+(	(	400
+)	)	400
+[	[	400
+]	]	400
++	+	400
+-	-	400
+### macron
+aa	ā	100
+AA	Ā	100
+ee	ē	100
+EE	Ē	100
+ii	ī	100
+II	Ī	100
+uu	ū	100
+UU	Ū	100
+oo	ō	100
+OO	Ō	100
+### circumflex
+*a	â	150
+*A	Â	100
+*e	ê	150
+*E	Ê	100
+*i	î	150
+*I	Î	100
+*u	û	151
+*U	Û	100
+*o	ô	150
+*O	Ô	100
+*g	ĝ	350
+*G	Ĝ	100
+### other
+ss	š	150
+SS	Š	150
+sz	š	150
+SZ	Š	150
+,s	ṣ	100
+,S	Ṣ	100
+,t	ṭ	100
+,T	Ṭ	100
+'s	ś	100
+'S	Ś	100
+### acute
+'a	á	200
+'A	Á	100
+'e	é	200
+'E	É	100
+'i	í	200
+'I	Í	100
+'u	ú	200
+'U	Ú	100
+'o	ó	200
+'O	Ó	100
+### grave
+\a	à	200
+\A	À	100
+\e	è	200
+\E	È	100
+\i	ì	200
+\I	Ì	100
+\u	ù	200
+\U	Ù	100
+\o	ò	200
+\O	Ò	100
+### miscellaneous
+''	ʾ	100
+\\	ʿ	100
+ng	ŋ	100
+NG	Ŋ	100
+hh	ḫ	150
+HH	Ḫ	150
+xx	×	100
+### subscripts
+_0	₀	100
+_1	₁	100
+_2	₂	100
+_3	₃	100
+_4	₄	100
+_5	₅	100
+_6	₆	100
+_7	₇	100
+_8	₈	100
+_9	₉	100
+_x	ₓ	100
+### superscripts
+'0	°	100
+'.	·	100
+'+	⁺	100
+'-	⁻	100
+### brackets
+'[	⸢	100
+']	⸣	100
+_[	⸤	100
+_]	⸥	100
+END_TABLE
+
