@@ -30,8 +30,8 @@ sz SZ| š Š
 'A 'E 'I 'U 'O | Á É Í Ú Ó
 \a \e \i \u \o| à è ì ù ò
 \A \E \I \U \O | À È Ì Ù Ò
-'' | ʾ
-\\ | ʿ
+'' (two apostrophes) | ʾ
+\\\\ | ʿ
 ng NG| ŋ Ŋ
 hh HH| ḫ Ḫ
 xx | ×
