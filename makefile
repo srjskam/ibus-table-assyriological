@@ -1,4 +1,4 @@
-package_name=ibus-table-assyriological_1.0.0_all
+package_name=ibus-table-assyriological_1.1.0_all
 
 install: assyriological.db
 	sudo cp assyriological.db /usr/share/ibus-table/tables/

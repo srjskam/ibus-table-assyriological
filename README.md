@@ -21,8 +21,11 @@ AA EE II UU OO | Ā Ē Ī Ū Ō
 *a *e *i *u *o | â ê î û ô
 *A *E *I *U *O | Â Ê Î Û Ô
 *g *G | ĝ Ĝ
-ss SS | š Š
+*r *R | ř Ř
+dr DR|ȓ Ȓ
 sz SZ| š Š
+ng NG| ŋ Ŋ
+hh HH| ḫ Ḫ
 ,s ,S | ṣ Ṣ
 ,t ,T| ṭ Ṭ
 's 'S| ś Ś
@@ -32,8 +35,6 @@ sz SZ| š Š
 \A \E \I \U \O | À È Ì Ù Ò
 '' (two apostrophes) | ʾ
 \\\\ | ʿ
-ng NG| ŋ Ŋ
-hh HH| ḫ Ḫ
 xx | ×
 _0..._9 | ₀...₉
 _x | ₓ
