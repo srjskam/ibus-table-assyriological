@@ -58,7 +58,7 @@ VALID_INPUT_CHARS = 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWX
 LAYOUT = default
 
 ### The max number of input keys for every phrase or character.
-MAX_KEY_LENGTH = 2
+MAX_KEY_LENGTH = 3
 
 ### Use auto_commit mode as default
 AUTO_COMMIT = TRUE
@@ -187,16 +187,38 @@ _	_	400
 +	+	400
 -	-	400
 ### macron
-aa	ā	100
-AA	Ā	100
-ee	ē	100
-EE	Ē	100
-ii	ī	100
-II	Ī	100
-uu	ū	100
-UU	Ū	100
-oo	ō	100
-OO	Ō	100
+--a	ā	210
+--A	Ā	200
+--e	ē	210
+--E	Ē	200
+--i	ī	210
+--I	Ī	200
+--u	ū	210
+--U	Ū	200
+--o	ō	210
+--O	Ō	200
+### macron + acute
+-'a	ā́	110
+-'A	Ā́	100
+-'e	ḗ	110
+-'E	Ḗ	100
+-'i	ī́	110
+-'I	Ī́	100
+-'o	ṓ	110
+-'O	Ṓ	100
+-'u	ū́	110
+-'U	Ū́	100
+### macron + grave
+-\a	ā̀	110
+-\A	Ā̀	100
+-\e	ḕ	110
+-\E	Ḕ	100
+-\i	ī̀	110
+-\I	Ī̀	100
+-\o	ṑ	110
+-\O	Ṑ	100
+-\u	ū̀	110
+-\U	Ū̀	100
 ### circumflex
 *a	â	150
 *A	Â	100

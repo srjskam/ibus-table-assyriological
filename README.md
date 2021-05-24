@@ -16,8 +16,8 @@ Use the release (.deb package) on the right, or `make` the project to make and i
 
 Input | Output
 --- | ---
-aa ee ii uu oo| ā ē ī ū ō
-AA EE II UU OO | Ā Ē Ī Ū Ō
+--a --e --i --u --o| ā ē ī ū ō
+--A --E --I --U --O | Ā Ē Ī Ū Ō
 *a *e *i *u *o | â ê î û ô
 *A *E *I *U *O | Â Ê Î Û Ô
 *g *G | ĝ Ĝ
@@ -33,6 +33,10 @@ hh HH| ḫ Ḫ
 'A 'E 'I 'U 'O | Á É Í Ú Ó
 \a \e \i \u \o| à è ì ù ò
 \A \E \I \U \O | À È Ì Ù Ò
+-'a -'e -'i -'u -'o | ā́ ḗ ī́ ū́ ṓ 
+-'A -'E -'I -'U -'O | Ā́ Ḗ Ī́ Ū́ Ṓ
+-\a -\e -\i -\u -\o | ā̀ ḕ ī̀ ū̀ ṑ 
+-\A -\E -\I -\U -\O | Ā̀ Ḕ Ī̀ Ū̀ Ṑ
 '' (two apostrophes) | ʾ
 \\\\ | ʿ
 xx | ×
