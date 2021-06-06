@@ -49,7 +49,7 @@ AUTHOR = srjskam <srjskam@iki.fi>
 STATUS_PROMPT = As
 
 ### Valid input chars.
-VALID_INPUT_CHARS = 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_'\*,()[]+-.
+VALID_INPUT_CHARS = 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_'\*,()[]+-.?
 
 
 ### Layout
@@ -249,6 +249,7 @@ hh	ḫ	150
 HH	Ḫ	150
 ng	ŋ	100
 NG	Ŋ	100
+??	ʔ	100
 ### acute
 'a	á	200
 'A	Á	100
@@ -287,11 +288,14 @@ _7	₇	100
 _8	₈	100
 _9	₉	100
 _x	ₓ	100
+_(	₍	90
+_)	₎	90
 ### superscripts
 '0	°	100
 '.	·	100
 '+	⁺	100
 '-	⁻	100
+'?	ˀ	100
 ### brackets
 '[	⸢	100
 ']	⸣	100
